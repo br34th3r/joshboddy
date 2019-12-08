@@ -1,5 +1,4 @@
 import React, { Component } from "react"
-import "../style.css"
 import Appbar from "../components/appbar"
 import Post from "../components/post"
 import { graphql } from "gatsby"
