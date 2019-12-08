@@ -1,8 +1,7 @@
 import React from "react"
-import { Link } from 'gatsby';
 
 function card(props) {
-  const { cardTitle, cardSubtitle, link, img } = props;
+  const { cardTitle, cardSubtitle, link } = props;
   return (
     <div className="col-lg-4">
       <a href={link} className="card mx-3 my-5">

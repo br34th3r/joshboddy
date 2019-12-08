@@ -1,7 +1,6 @@
 import React, { Component } from "react"
 import { graphql } from 'gatsby'
 import Appbar from "../components/appbar"
-import Info from "../components/info"
 import Img from "gatsby-image"
 import { Helmet } from "react-helmet"
 

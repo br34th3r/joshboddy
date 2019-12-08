@@ -1,5 +1,4 @@
 import React, { Component } from "react"
-import { Link } from 'gatsby';
 import BackgroundImage from 'gatsby-background-image';
 
 class Post extends Component {
