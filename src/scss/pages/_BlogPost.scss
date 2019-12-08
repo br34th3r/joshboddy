@@ -1,0 +1,26 @@
+.PostHeaderText {
+  position: absolute;
+  top: 50%;
+  transform: translate(30%, -50%);
+}
+
+.PostHeaderTitle {
+  font-size: 1.5em;
+}
+
+.PostHeaderSubtitle {
+  font-size: 1.2em;
+  color: #CCC;
+}
+
+.PostContent {
+  padding: 2vw 5vw 2vw 5vw;
+}
+
+.PostContent {
+  p {
+    span {
+      margin: 5vw;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+.card {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: 0.1s ease-in;
+  background-color: #324359 !important;
+
+  p {
+    font-size: 0.7em;
+    color: #ccc !important;
+  }
+
+  a {
+    font-size: 0.7em;
+  }
+
+  .card-text {
+    font-size: 1em;
+    text-decoration: none;
+  }
+
+  .card-title {
+    text-decoration: none;
+    font-size: 1.3em;
+    color: white;
+  }
+}
+
+.card:hover {
+  transform: scale(1.09);
+  text-decoration: none;
+}
+
+.card-body:hover {
+  text-decoration: none;
+}

@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins|Source+Code+Pro&display=swap');
 
+@import './pages/HomePage';
+@import './pages/AboutMe';
+@import './pages/BlogPost';
+
+@import './components/ListPosts';
+@import './components/Card.scss';
+
+@import './MobileChanges';
+
 html {
   background: linear-gradient(to right, #1f2b3b, #102030) !important;
   color: #fff !important;
@@ -11,174 +20,5 @@ html {
     color: #fff !important;
     font-size: 20px !important;
     font-family: "Poppins", sans-serif !important;
-
-    .code {
-      font-family: "Source Code Pro", monospace;
-    }
-
-    .info {
-      line-height: 1.4;
-      width: 85%;
-    }
-
-    .social {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: white !important;
-    }
-
-    .icon {
-      height: 30px;
-      transition: 0.1s ease-in;
-      color: #fff;
-    }
-
-    .icon:hover {
-      transform: scale(1.5);
-      color: #ff8a00;
-    }
-
-    .card {
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-      transition: 0.1s ease-in;
-      background-color: #324359 !important;
-
-      p {
-        font-size: 0.7em;
-        color: #ccc !important;
-      }
-
-      a {
-        font-size: 0.7em;
-      }
-
-      .card-text {
-        font-size: 1em;
-        text-decoration: none;
-      }
-
-      .card-title {
-        text-decoration: none;
-        font-size: 1.3em;
-        color: white;
-      }
-    }
-
-    .card:hover {
-      transform: scale(1.09);
-      text-decoration: none;
-    }
-
-    .card-body:hover {
-      text-decoration: none;
-    }
-
-    .PostHeaderText {
-      position: absolute;
-      top: 50%;
-      transform: translate(30%, -50%);
-    }
-
-    .PostHeaderTitle {
-      font-size: 1.5em;
-    }
-
-    .PostHeaderSubtitle {
-      font-size: 1.2em;
-      color: #CCC;
-    }
-
-    .PostContent {
-      padding: 2vw 5vw 2vw 5vw;
-    }
-
-    .PostContent {
-      p {
-        span {
-          margin: 5vw;
-        }
-      }
-    }
-
-    .AlternateHeader {
-      padding: 2vw 5vw 2vw 5vw;
-    }
-
-    .info-link {
-      text-decoration: none;
-      color: #2244FF;
-    }
-
-    .info-link:hover {
-      text-decoration: none;
-      color: #2244FF;
-    }
-
-    .PostContainer {
-      margin: 4vw;
-      background-color: #324359;
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-      text-decoration: none;
-      transition: 0.1s ease-in;
-
-      a {
-        text-decoration: none;
-      }
-    }
-
-    .PostContainer:hover {
-      transform: scale(1.05);
-    }
-
-    .PostText {
-      padding: 2vw;
-
-      h1 {
-        font-size: 1.5em;
-        color: white;
-        text-decoration: none;
-      }
-
-      h2 {
-        font-size: 1.2em;
-        color: #CCC;
-      }
-    }
-
-    .AboutMeHeader {
-      text-align: center;
-
-      h1 {
-        display: inline-block;
-        margin: 2vw;
-      }
-    }
-
-    .AboutMeImage {
-      width: 28vw;
-      float: left;
-      margin: 2.5vw 1vw 1vw 2vw;
-    }
-
-    .AboutMeContent {
-      margin: 2vw;
-    }
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .AboutMeImage {
-    float: none;
-    margin: 5vw;
-    width: 90vw;
-  }
-
-  .AboutMeContent {
-    padding: 5vw;
-  }
-
-  .info {
-    margin: 5vw;
   }
 }
