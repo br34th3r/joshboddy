@@ -12,12 +12,12 @@ export default function info() {
   return (
     <div className="container info">
       <div className="my-5"></div>
-      <div className="display-3" style={{ color: "#FF8A00" }}>
+      <div className="display-3 header" style={{ color: "#FF8A00" }}>
         <span style = {{color : "white"}}>Hello,</span> <br />
         <span style = {{color : 'white'}}>I'm</span> Josh.
       </div>
       <div className="h1 code mt-4 mb-3">void <Link fade to="/about-me" className="info-link">info</Link>() {"{"}</div>
-      <div className="text-muted mx-5 my-4 h3 text-justify info">
+      <div className="text-muted mx-5 my-4 h3 text-justify info code-text">
       Young Developer in OOP and Web Design
       <br />
       JavaScript | Node JS | React | React Native | Electron | Python | Java

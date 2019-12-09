@@ -1,5 +1,6 @@
 .code {
   font-family: "Source Code Pro", monospace;
+  font-size: 1.8rem;
 }
 
 .info {
@@ -25,6 +26,10 @@
   color: #ff8a00;
 }
 
+.header {
+  font-size: 4rem;
+}
+
 .AlternateHeader {
   padding: 2vw 5vw 2vw 5vw;
 }
@@ -37,4 +42,8 @@
 .info-link:hover {
   text-decoration: none;
   color: #2244FF;
+}
+
+.code-text {
+  font-size: 1.4rem;
 }

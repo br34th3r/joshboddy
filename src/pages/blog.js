@@ -17,7 +17,6 @@ class Blog extends Component {
               postDate={post.node.frontmatter.date}
               link={post.node.frontmatter.path}
               key={post.node.frontmatter.path}
-              img={post.node.frontmatter.featuredImage}
             />
           ))}
         </div>
@@ -43,13 +42,6 @@ export const query = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             path
-            featuredImage {
-              childImageSharp {
-                fluid(maxWidth: 800) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
           }
         }
       }
