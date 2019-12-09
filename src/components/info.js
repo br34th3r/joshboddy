@@ -5,6 +5,7 @@ import {
   FaTwitter as Twitter,
   FaGithub as Github,
   FaInstagram as Insta,
+  FaLinkedin as LinkedIn,
 } from "react-icons/fa"
 
 export default function info() {
@@ -23,14 +24,17 @@ export default function info() {
       </div>
       <div className="h1 code mt-2 mb-3">{"}"}</div>
       <div className="icons h1 mt-5">
-        <a className="mr-5 icon" href="https://twitter.com/kamohoaliix">
+        <a className="mr-4 icon" href="https://twitter.com/kamohoaliix">
           <Twitter />
         </a>
-        <a className="mr-5 icon" href="https://instagram.com/joshboddyofficial">
+        <a className="mr-4 icon" href="https://instagram.com/joshboddyofficial">
           <Insta />
         </a>
-        <a className="mr-5 icon" href="https://github.com/br34th3r">
+        <a className="mr-4 icon" href="https://github.com/br34th3r">
           <Github />
+        </a>
+        <a className="mr-4 icon" href="https://www.linkedin.com/in/joshua-boddy/">
+          <LinkedIn />
         </a>
       </div>
     </div>
