@@ -18,6 +18,19 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
+      resolve: "gatsby-plugin-prefetch-google-fonts",
+      options: {
+        fonts: [
+          {
+            family: 'Poppins'
+          },
+          {
+            family: 'Source Code Pro'
+          }
+        ]
+      }
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,
