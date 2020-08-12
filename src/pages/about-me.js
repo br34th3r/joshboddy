@@ -7,7 +7,7 @@ import { Helmet } from "react-helmet"
 class AboutMe extends Component {
   render() {
     return (
-      <div>
+      <div style={{ marginTop: "-2vh" }}>
         <Appbar />
         <div className="AboutMe">
           <div className="AboutMeHeader">

@@ -8,7 +8,7 @@ function Projects({ data }) {
   const projectList = data.allProjectsYaml.edges
 
   return (
-    <div className="container-fluid">
+    <div className="container-fluid" style={{ marginTop: "-2vh" }}>
       <Appbar />
       <Helmet>
         <meta charSet="utf-8" />

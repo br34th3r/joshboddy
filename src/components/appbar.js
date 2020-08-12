@@ -3,7 +3,7 @@ import Intent from "./link"
 
 export default function Appbar() {
   return (
-    <div className="container my-3">
+    <div className="navcontainer container my-3">
       <ul className="nav justify-content-center">
         <li className="nav-item mx-4">
           <Intent to="/">Home</Intent>

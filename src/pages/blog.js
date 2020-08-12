@@ -8,7 +8,7 @@ class Blog extends Component {
   render() {
     const posts = this.props.data.allMarkdownRemark.edges;
     return (
-      <div className="container-fluid">
+      <div className="container-fluid" style={{ marginTop: "-2vh" }}>
         <Appbar />
         <div className="Blog">
           { posts.map((post) => (

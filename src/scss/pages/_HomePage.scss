@@ -3,6 +3,16 @@
   font-size: 1.8rem;
 }
 
+.backgroundImage {
+  height: 100vh;
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+  position: absolute;
+  margin-top: -2vh;
+  z-index: -1;
+}
+
 .info {
   line-height: 1.4;
   width: 85%;
@@ -46,4 +56,5 @@
 
 .code-text {
   font-size: 1.4rem;
+  color: white;
 }

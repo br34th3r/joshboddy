@@ -17,7 +17,7 @@ export default function info() {
         <span style = {{color : 'white'}}>I'm</span> Josh.
       </div>
       <div className="h1 code mt-4 mb-3">void <Link fade to="/about-me" className="info-link">info</Link>() {"{"}</div>
-      <div className="text-muted mx-5 my-4 h3 text-justify info code-text">
+      <div className="mx-5 my-4 h3 text-justify info code-text">
       Young Developer in OOP and Web Design
       <br />
       JavaScript | Node JS | React | React Native | Electron | Python | Java
